@@ -32,7 +32,7 @@ template<typename T> void Stack<T>::pop() {
 
 int main() {
 	Stack <int> st;
-	for (int i = 1; i <= 10
+	for (int i = 1; i <= 15
 		; i++)st.push(i);
 		while (!st.isEmpty()) {
 			cout << st.top() << "\n";
